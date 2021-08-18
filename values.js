@@ -4,7 +4,7 @@ function values(obj) {
     if(typeof obj[prop] === "function"){
         continue;
     }else{
-        resArr.push(obj[prop])
+        resArr.push(obj[prop]);
     }
 }
   return resArr;
